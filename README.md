@@ -1,7 +1,7 @@
 # path_finding
 
 ### Description
-This is a C# WinForms project created as a simple way to visualise and compare A-star and Dijikstra's path finding algorithms and how the use of a different metric (a distance calculation that gives the algorithm a directional bias) can affect the computational work done by A-star.
+This is a C# WinForms project created as a simple way to visualise and compare A-star and Dijkstra's path finding algorithms and how the use of a different metric (a distance calculation that gives the algorithm a directional bias) can affect the computational work done by A-star.
 
 
 ### Screenshots
@@ -40,7 +40,7 @@ The instructions given here can be found at any point by pressing the '?' button
 
 - Adding walls or altering the position of the start/finish points requires the selection of the control in the toolbox, clicking the grid will place the control.
 
-- Change the algorithm the program will use to find the shortest path by selecting the desired one with the radio button next to its name. (selecting Dijikstra's algorithm will disable metrics as this algorithm does not use them).
+- Change the algorithm the program will use to find the shortest path by selecting the desired one with the radio button next to its name. (selecting Dijkstra's algorithm will disable metrics as this algorithm does not use them).
 
 - Press the 'Find path' button to search for the shortest path between the start 'S' and finish 'F' points, this will automatically clear any currently shown paths on the grid.
 
